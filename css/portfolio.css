@@ -1,0 +1,85 @@
+/*
+ * Base structure
+ */
+
+ html, body {
+   background: url(../img/bg.png) no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 100%;
+ }
+
+/*
+ * Main content
+ */
+
+.main {
+  margin: 0 2rem 0 2rem;
+  background-color: #eceeef;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+.jumbotron {
+  padding-top: 0.5rem;
+}
+
+.philosophy .fa {
+  color: #008cff;
+}
+.language div {
+  padding-top: 0.5rem;
+}
+
+.language .fa {
+  color: #008cff;
+}
+
+.progress {
+  background-color: #5cb85c;
+  margin-top: 0.3rem;
+  border-radius: 1rem;
+}
+
+.progress.progress-warning {
+  width: 80%;
+}
+
+/*
+ * Placeholder
+ */
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+/*
+ * Headings
+ */
+
+.display-5 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.display-6 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
